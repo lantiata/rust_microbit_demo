@@ -25,7 +25,7 @@ cargo add rtt_target
 cargo add cortex-m --features critical-section-single-core
 
 # Links
-##Rust Platform Support 
+## Rust Platform Support 
 https://doc.rust-lang.org/beta/rustc/...
 
 ## Crates Registry 
@@ -58,13 +58,13 @@ Error Lens
 Even Better TOML
 
 # Debugging
-##Start command from a new terminal:
+## Start command from a new terminal:
 arm-none-eabi-gdb.exe .\target\thumbv7m-none-eabi\debug\rustymicrobit
 
 ## Connect
 target remote :1337
 
-##Misc gdb commands
+## Misc gdb commands
 brake main.rs:38 //brakepoint to main line 38.
 continue         // Continue running
 print count      // get variable 
