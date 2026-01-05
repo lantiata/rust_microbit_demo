@@ -6,7 +6,7 @@
             "type": "cppdbg",
             "request": "launch",
 
-            "program": "c:/Users/Attila Lantos/rustymicrobit/target/thumbv7m-none-eabi/debug/rustymicrobit",
+            "program": "${workspaceRoot}/target/thumbv7m-none-eabi/debug/rustymicrobit",
             "cwd": "${workspaceRoot}",
 
             "MIMode": "gdb",
