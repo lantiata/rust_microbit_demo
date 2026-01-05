@@ -36,6 +36,8 @@ https://developer.arm.com/downloads/
 https://docs.rust-embedded.org/book/
 ##"The Book" 
 https://doc.rust-lang.org/book/index.
+## Tutorial
+https://www.youtube.com/watch?v=TOAynddiu5M
 
 #IDE 
 Version: 1.107.1 (user setup)
