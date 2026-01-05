@@ -1,0 +1,17 @@
+[default.general]
+chip = "nRF52833_xxAA"
+
+[default.flashing]
+enabled = true
+
+[default.reset]
+halt_afterwards = false
+
+[default.rtt]
+enabled = true
+
+[default.probe]
+protocol = "Swd"
+
+[default.gdb]
+enabled = true

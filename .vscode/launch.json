@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "GDB attach (ERDB + OpenOCD)",
+            "type": "cppdbg",
+            "request": "launch",
+
+            "program": "c:/Users/Attila Lantos/rustymicrobit/target/thumbv7m-none-eabi/debug/rustymicrobit",
+            "cwd": "${workspaceRoot}",
+
+            "MIMode": "gdb",
+            "miDebuggerPath": "arm-none-eabi-gdb",
+
+            "miDebuggerServerAddress": "localhost:1337",
+
+            "setupCommands": [
+                //{ "text": "monitor reset halt" },
+                //{ "text": "load" },
+                //{ "text": "break main" }
+            ],
+    
+        }
+    ]
+}
