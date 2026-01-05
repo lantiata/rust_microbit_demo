@@ -5,7 +5,7 @@ Blinking LED rust demo for microbit v2
 https://makecode.microbit.org/device/v2
 nRF52833 
 
-#RUST
+# RUST
 https://rust-lang.org/tools/install/
 ## Cortex M4 support
 rustup target add thumbv7em-none-eabihf
@@ -24,22 +24,22 @@ cargo add rtt_target
 
 cargo add cortex-m --features critical-section-single-core
 
-#Links
+# Links
 ##Rust Platform Support 
 https://doc.rust-lang.org/beta/rustc/...
 
-##Crates Registry 
+## Crates Registry 
 https://crates.io/
-##Arm GNU Toolchain 
+## Arm GNU Toolchain 
 https://developer.arm.com/downloads/
-##The Embedded Rust book 
+## The Embedded Rust book 
 https://docs.rust-embedded.org/book/
-##"The Book" 
+## "The Book" 
 https://doc.rust-lang.org/book/index.
 ## Tutorial
 https://www.youtube.com/watch?v=TOAynddiu5M
 
-#IDE 
+# IDE 
 Version: 1.107.1 (user setup)
 Commit: 994fd12f8d3a5aa16f17d42c041e5809167e845a
 Date: 2025-12-17T14:15:14.850Z
